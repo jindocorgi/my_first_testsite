@@ -5,84 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        li {
-            list-style: none;
-        }
-        header{
-            background-color: aquamarine;
-            margin-bottom: 2%;
-        }
-
-        #wrap{
-            overflow: auto;
-            margin: 10px  0px;
-        }
-        .left, .right{
-            float:left;
-            text-align: center;
-        }
-        .left{
-            background-color: coral;
-            width:200px;
-            margin-right: 3%;
-        }
-        .right{
-            background-color: darkkhaki;
-            width:50%;
-            margin: 1% 0%;
-            
-        }
-        footer{
-            background-color: #eee;
-            clear:left;
-        }
-
-    </style>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-
 <body>
-    <header>안녕하세요</header>
-    <div id="wrap">
-    <nav class = "left">
-    <ul>
-        <li>menu</li>
-        <li>home</li>
-    </ul>
-    </nav>
-        <div class="right">
-            <h2>반가워요</h2>
-            <ul>
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-            </ul>
+    <div class = "container">
+        <div class = "clock">
+            <h1 id = "time">당첨자</h1>
         </div>
-   
+    <button id ="start">START</button>
+    <button id ="stop">STOP</button>
     </div>
-    <p>
-        <div id="disqus_thread"></div>
-        <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-         /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-       s.src = 'https://testsite-idwo7jr2id.disqus.com/embed.js';
-       s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </p>
-    <footer>
-        코드스쿼드
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
