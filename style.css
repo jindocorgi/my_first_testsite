@@ -29,7 +29,8 @@ main,
 footer {
   display: flex;
   align-items: center;
-  grid-row-end :20px
+  grid-row-end :20px;
+  justify-content: center;
 }
 
 
@@ -40,12 +41,11 @@ main{
 }
 
 .image{
-    margin: 2%;
+    margin: 1%;
 }
 
 .image1{
     width: 250px;
-    margin-top: 15%;
 }
 
 .image2{
@@ -53,28 +53,24 @@ main{
 }
 
 .image3{
-    width:150px;
+    margin: 7%;
+    width:200px;
 }
 
-.image4{
-    width:300px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    animation: fadeInUp 1s;
-}
 
 .txt{
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 10px;
-    color: royalblue;
+    color: mediumslateblue;
+ 
 
 }
 
 #paragraph{
     font-family: 'HBIOS-SYS';
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
@@ -101,7 +97,7 @@ button{
     background-color : #fafafa;
     border-radius: 5px;
     border-color: mediumslateblue;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'HBIOS-SYS';
