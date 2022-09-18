@@ -17,25 +17,21 @@ body{
     height: 100vh;
     margin: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: 0px auto 50px;
+    grid-template-rows: auto 30px;
     grid-template-areas: 
-    'header'
+
     'main'
     'footer';
 }
 
-header,
+
 main,
 footer {
   display: flex;
   align-items: center;
-  grid-gap :0px
+  grid-row-end :20px
 }
 
-header{
-    grid-area: header;
-    background-color: #006666;
-}
 
 main{
     grid-area: main;
@@ -49,6 +45,7 @@ main{
 
 .image1{
     width: 250px;
+    margin-top: 15%;
 }
 
 .image2{
@@ -57,6 +54,13 @@ main{
 
 .image3{
     width:150px;
+}
+
+.image4{
+    width:300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    animation: fadeInUp 1s;
 }
 
 .txt{
@@ -97,13 +101,16 @@ button{
     background-color : #fafafa;
     border-radius: 5px;
     border-color: mediumslateblue;
-    margin: 5px;
+    margin-top: 5px;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'HBIOS-SYS';
 }
 
 footer{
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
     text-align: center;
     justify-content: center;
     grid-area: footer;

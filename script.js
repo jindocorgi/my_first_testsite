@@ -1,11 +1,3 @@
-//캔버스세팅
-let canvas;
-let ctx;
-canvas = document.createElement("canvas")
-ctx = canvas.getContext("2d")
-canvas.width=400;
-canvas.heigt=200;
-document.body.appendChild(canvas);
 
 
 tID = 0;
@@ -22,4 +14,3 @@ start.onclick = function(){
     tID = setInterval(choose,30)
     setTimeout(()=>{clearInterval(tID);},1500);
 }
-
