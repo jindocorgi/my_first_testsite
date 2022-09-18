@@ -21,7 +21,7 @@ start.onclick = function(){
         clearInterval(tID);},1500);
     setTimeout(()=>{
         box1.innerHTML=`<p>${result}님<br> 축하합니다!</p>`;
-        box1.style.animation='slide 2s forwards'
+        box1.style.animation='slide 1s forwards'
     },2000);
 
 }
