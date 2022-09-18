@@ -54,7 +54,7 @@ main{
 
 .image3{
     margin: 7%;
-    width:200px;
+    width:180px;
 }
 
 
@@ -97,7 +97,7 @@ button{
     background-color : #fafafa;
     border-radius: 5px;
     border-color: mediumslateblue;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'HBIOS-SYS';
