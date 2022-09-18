@@ -103,8 +103,44 @@ button{
     font-family: 'HBIOS-SYS';
 }
 
-footer{
+section{
     position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 1000px;
+}
+
+#box1{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+    background-color: rgba(0,0,0,0.95);
+    color: white;
+    font-family: sans-serif;
+    font-family: HBIOS-SYS;
+    line-height: 1.6;
+}
+
+p{
+    margin-top: 100px;
+}
+
+@keyframes slide{
+    from{
+        top:1000px;
+        opacity: 0;
+    }
+    to{
+        top:0px;
+        opacity: 1;
+    }
+}
+
+footer{
+    position: fixed;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -114,3 +150,4 @@ footer{
     font-family: 'HBIOS-SYS';
     color: white;
 }
+
