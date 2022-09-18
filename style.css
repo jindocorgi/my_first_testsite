@@ -29,7 +29,7 @@ main,
 footer {
   display: flex;
   align-items: center;
-  grid-row-end :20px;
+  grid-row-gap :10px;
 }
 
 
@@ -45,7 +45,7 @@ main{
 
 .image1{
     width: 250px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .image2{
@@ -54,7 +54,7 @@ main{
 
 .image3{
     margin: 5%;
-    width:180px;
+    width:200px;
 }
 
 
@@ -62,7 +62,6 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 10px;
     color: mediumslateblue;
  
 
@@ -70,8 +69,8 @@ main{
 
 #paragraph{
     font-family: 'HBIOS-SYS';
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 1.3rem;
+    margin-top: 0px;
 }
 
 .draw{
@@ -80,7 +79,7 @@ main{
     border-radius: 10px;
     align-items: center;
     font-family: 'HBIOS-SYS';
-    margin-top: 10%;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -99,7 +98,7 @@ button{
     border-color: mediumslateblue;
     margin-top: 5px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'HBIOS-SYS';
 }
 
