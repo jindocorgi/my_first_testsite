@@ -13,36 +13,28 @@
 
 body{
     display: grid;
-    width: 375px;
-    height: 667px;
+    width: 414px;
+    height: 100vh;
     margin: 0;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px auto 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0px auto 50px;
     grid-template-areas: 
-    'header header'
-    'main main'
-    'footer footer';
+    'header'
+    'main'
+    'footer';
 }
 
 header,
 main,
 footer {
   display: flex;
-  justify-content: center;
   align-items: center;
-  grid-gap :10px
+  grid-gap :0px
 }
 
 header{
     grid-area: header;
-    background-color: #eefac9;
-    color: royalblue;
-
-}
-
-.image{
-    height: 30px;
-    margin: 3%;
+    background-color: #006666;
 }
 
 main{
@@ -51,20 +43,53 @@ main{
     flex-direction: column;
 }
 
+.image{
+    margin: 2%;
+}
+
+.image1{
+    width: 250px;
+}
+
+.image2{
+    width: 150px;
+}
+
+.image3{
+    width:150px;
+}
+
+.txt{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    color: royalblue;
+
+}
+
+#paragraph{
+    font-family: 'HBIOS-SYS';
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
 .draw{
     width: 300px; 
-    margin: 10px auto;
     border: solid mediumslateblue;
     border-radius: 10px;
     align-items: center;
+    font-family: 'HBIOS-SYS';
+    margin-top: 10%;
+    margin-bottom: 10px;
 }
 
 h1{
     font-size : 1.5rem;
-    font-family: 'HBIOS-SYS';
     font-weight: 600;
     text-align: center;
 }
+
 button{
     width : 100px;
     height: 40px;
@@ -72,14 +97,17 @@ button{
     background-color : #fafafa;
     border-radius: 5px;
     border-color: mediumslateblue;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'HBIOS-SYS';
 }
 
 footer{
+    text-align: center;
+    justify-content: center;
     grid-area: footer;
-    background-color: #eefac9;
+    background-color: #006666;
+    font-family: 'HBIOS-SYS';
     color: white;
 }
