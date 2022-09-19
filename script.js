@@ -14,13 +14,13 @@ function choose(){
 }
 console.log(applicant.length);
 start.onclick = function(){
-    tID = setInterval(choose,30)
+    tID = setInterval(choose,80)
     setTimeout(()=>{
-        clearInterval(tID);},1800);
+        clearInterval(tID);},10000);
     setTimeout(()=>{
         box1.innerHTML=`<p>${result}님<br> 축하합니다!</p>`;
         box1.style.animation='slide 1s forwards'
-    },2500);
+    },12000);
 box1.onclick = function(){
     box1.style.animation='disapear 1s forwards';
     }
