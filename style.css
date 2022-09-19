@@ -105,13 +105,13 @@ button{
 
 section{
     position: absolute;
-    width: 400px;
+    width: 414px;
     height: 400px;
     top: 1000px;
 }
 
 #box1{
-    width: 100%;
+    width: 414px;
     height: 100%;
     font-size: 2rem;
     text-align: center;
@@ -136,6 +136,17 @@ p{
     to{
         top:0px;
         opacity: 1;
+    }
+}
+
+@keyframes disapear{
+    from{ 
+        top:0px;
+
+    }
+    to{
+        top:1000px;
+
     }
 }
 
