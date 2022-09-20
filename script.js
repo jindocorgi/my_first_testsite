@@ -14,7 +14,7 @@ function choose(){
 }
 console.log(applicant.length);
 start.onclick = function(){
-    tID = setInterval(choose,80)
+    tID = setInterval(choose,60)
     setTimeout(()=>{
         clearInterval(tID);},10000);
     setTimeout(()=>{
